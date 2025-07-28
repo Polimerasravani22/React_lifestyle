@@ -1,38 +1,167 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-size: 1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.headersection {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding-top: 10px;
+  background-color: rgb(214, 170, 50);
+}
+.headersection img {
+  padding-top: 0px;
+}
+.center ul li {
+  list-style: none;
+  display: inline-flex;
+  margin: 0px 10px;
+}
+.left {
+  flex: 4;
+}
+.center {
+  font-weight: bold;
+  flex: 6;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.search {
+  flex: 4;
+  padding: 10px 10px;
+}
+.search input {
+  padding: 10px;
+  width: 20rem;
+  border-radius: 10px;
+  margin-left: -50px;
+}
+.right {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+.bannerbox img {
+  width: 100%;
+  padding: 10px;
+}
+.menImages {
+  display: flex;
+  gap: 20px;
+}
+.menImages img {
+  width: 200px;
+  height: 200px;
+}
+.womenImages {
+  display: flex;
+  gap: 20px;
+}
+.womenImages img {
+  width: 200px;
+  height: 200px;
+}
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+  background-color: #232f3e;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-column {
+  flex: 1 1 200px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #fafafa;
+}
+
+.footer-column a {
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+.name {
+  margin-top: 311px;
+  color: #fafafa;
+}
+/* ========== Small devices (phones, less than 600px) ========== */
+@media screen and (max-width: 600px) {
+  .headersection,
+  .menImages,
+  .womenImages,
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+
+  .center ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .left,
+  .center,
+  .search,
+  .right {
+    flex: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .menImages img,
+  .womenImages img {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer-column {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}
+
+/* ========== Medium devices (tablets, 600px to 1024px) ========== */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .center ul li {
+    margin: 5px;
+  }
+
+  .menImages img,
+  .womenImages img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .footer-column {
+    flex: 1 1 45%;
+  }
+}
+
+/* ========== Large devices (desktops, more than 1024px) ========== */
+@media screen and (min-width: 1025px) {
+  .menImages img,
+  .womenImages img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .footer-column {
+    flex: 1 1 200px;
   }
 }
