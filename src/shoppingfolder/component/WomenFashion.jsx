@@ -6,7 +6,7 @@ const WomenFashion = (props) => {
      <div className='collectionSection'>
       <h2>{title}</h2>
       <div className="bannerbox">
-      <img src="assets/girlBanner.jpg" alt="Banner" width="100%" height="250px" />
+      <img src="assets/girlbanner.jpg" alt="Banner" width="100%" height="250px" />
       </div>
 <div className="womenImages">
         <img src={image1} alt={title}/>
