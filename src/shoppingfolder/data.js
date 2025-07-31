@@ -6,12 +6,14 @@ export const Gents = {
     image4: "assets/men4.jpg",
     image5: "assets/men5.jpg",
     image6: "assets/men6.jpg",
+    image7: "assets/men7.jpg",
     price1: "559 INR",
     price2: "459 INR",
     price3: "659 INR",
     price4: "759 INR",
     price5: "859 INR",
     price6: "959 INR",
+     price7: "951 INR",
 
 }
 export const Ladies = {
@@ -22,11 +24,13 @@ export const Ladies = {
     image4: "assets/women4.jpg",
     image5: "assets/women5.jpg",
     image6: "assets/women6.jpg",
+    image7: "assets/women7.jpg",
     price1: "1559 INR",
     price2: "1459 INR",
     price3: "1659 INR",
     price4: "1759 INR",
-    price3: "1859 INR",
-    price4: "1959 INR",
+    price5: "1859 INR",
+    price6: "1959 INR",
+    price7: "1959 INR",
 
 }
