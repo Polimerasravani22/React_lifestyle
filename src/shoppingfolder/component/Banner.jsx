@@ -5,7 +5,7 @@ const Banner = () => {
    
       <div className="bannersection">
       <div className="bannerbox">
-        <img src="assets/bannergif.gif" alt="Banner" width="100%" height="350px" />
+        <img src="assets/bannergif.gif" alt="Banner" width="100%" height="450px" />
       </div>
       </div>
     
