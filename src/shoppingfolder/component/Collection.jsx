@@ -6,7 +6,7 @@ const Collection = (props) => {
     <div className='collectionSection'>
       <h2>{title}</h2>
       <div className="bannerbox">
-            <img src="assets/menbanner.jpg" alt="Banner" width="100%" height="250px" />
+            <img src="assets/menbanner.jpg" alt="Banner" width="100%" height="350px" />
 </div>
       <div className="menImages">
         <img src={image1} alt={title}/>
