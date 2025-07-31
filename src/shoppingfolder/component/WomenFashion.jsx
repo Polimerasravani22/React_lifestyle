@@ -1,7 +1,7 @@
 import React from 'react'
 
 const WomenFashion = (props) => {
-  const {title,image1,image2,image3,image4,image5,image6} = props.ladiesFashion;
+  const {title,image1,image2,image3,image4,image5,image6,image7} = props.ladiesFashion;
   return (
      <div className='collectionSection'>
       <h2>{title}</h2>
@@ -15,6 +15,7 @@ const WomenFashion = (props) => {
         <img src={image4} alt={title}/>
         <img src={image5} alt={title}/>     
         <img src={image6} alt={title}/>
+   <img src={image7} alt={title}/>
       </div> 
       </div>
        )
